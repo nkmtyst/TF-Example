@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Transfer Learning - TensorFlow.js</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Import the webpage's stylesheet -->
+    <script src="./tf.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    <h1>TensorFlow.jsを使用して、簡単な機械学習サンプルページです。</h1>
+
+    <p id="status">初期化。。。。</p>
+
+    <video id="webcam" autoplay muted></video>
+
+    <button id="enableCam">Webカメラ有効する</button>
+    <button class="dataCollector" data-1hot="0" data-name="サンプル 1">サンプル1収集</button>
+    <button class="dataCollector" data-1hot="1" data-name="サンプル 2">サンプル2収集</button>
+    <button id="train">トレーニング&amp;予測</button>
+    <button id="reset">リセット</button>
+
+    <!-- Import the page's JavaScript to do some stuff -->
+    <script type="text/javaScript" src="./script.js"></script>
+  </body>
+</html>
